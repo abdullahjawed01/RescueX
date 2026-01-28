@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://rescuex.abdullahjawed.xyz/api"
+  baseURL: "https://localhost:5000/api"
 });
 
 export default API;
